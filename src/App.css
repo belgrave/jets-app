@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #EBEFF7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.FilmPanel {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .FilmPanel {
+    margin: 50px;
+  }
+}
+
+.FilmCard {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}

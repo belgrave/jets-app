@@ -8,17 +8,18 @@
   font-size: calc(10px + 2vmin);
 }
 
-.FilmPanel {
+.InfoPanel {
   margin: 10px;
+  width: 97%;
 }
 
 @media (min-width: 768px) {
-  .FilmPanel {
-    margin: 50px;
+  .InfoPanel {
+    margin: 0 10px;
   }
 }
 
-.FilmCard {
+.InfoCard {
   background-color: white;
   padding: 12px;
   margin-bottom: 12px;
@@ -26,4 +27,42 @@
 
 h1, h2 {
   margin-top: 0;
+}
+
+.TeamHeader {
+  width: 100%;
+}
+
+.Social {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .Social {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Social a {
+  color: green;
+  text-decoration: none;
+  display: block;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.ExpandingCardHeader {
+  cursor: pointer;
+  padding: 12px;
+}
+
+.ExpandingCardHeader:hover {
+  background-color: green;
+}
+
+.ExpandingContent {
+  padding: 6px;
 }
